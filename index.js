@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = procces.env.token;
+const token = 'NjA3NTI5NTgwNzIyNTIwMDc0.XUbjfg.KNNIXguuAF3ljZojFlBP_ia8UWs';
 
 bot.on('ready', () =>{
   var testChannel = bot.channels.get('605164603986542592');
@@ -15,4 +15,4 @@ bot.on('ready', () =>{
   }, 3600000);
 })
 
-bot.login(process.env.token);
+bot.login(token);
