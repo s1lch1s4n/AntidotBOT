@@ -1,0 +1,17 @@
+{
+  "name": "antidotbot",
+  "version": "1.0.0",
+  "description": "Foloseste codul: ANT1R",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "s1lch1san",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "node-cron": "^2.0.3",
+    "shell.js": "^3.1.0",
+    "shelljs": "^0.8.3"
+  }
+}
