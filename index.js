@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NjA3NTI5NTgwNzIyNTIwMDc0.XUbjfg.KNNIXguuAF3ljZojFlBP_ia8UWs';
+const token = procces.env.token;
 
 bot.on('ready', () =>{
   var testChannel = bot.channels.get('605164603986542592');
